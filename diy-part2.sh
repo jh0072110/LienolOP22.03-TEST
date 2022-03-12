@@ -14,6 +14,6 @@
 sed -i 's/192.168.1.1/10.10.10.1/g' package/base-files/files/bin/config_generate
 git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
-git clone https://github.com/jerrykuku/luci-app-jd-dailybonus package/luci-app-jd-dailybonus
-git clone https://github.com/xiaorouji/openwrt-passwall package/openwrt-passwall
 git clone https://github.com/messense/aliyundrive-webdav package/aliyundrive-webdav
+git clone -b luci https://github.com/xiaorouji/openwrt-passwall packages/psw
+git clone -b packages https://github.com/xiaorouji/openwrt-passwall packages/psw-pkgs
