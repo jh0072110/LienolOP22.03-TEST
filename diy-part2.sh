@@ -11,6 +11,7 @@
 #
 
 # Modify default IP
+rm -rf feeds/packages/net/xray-core
 rm -rf feeds/luci/themes/luci-theme-argon
 sed -i 's/192.168.1.1/10.10.10.1/g' package/base-files/files/bin/config_generate
 git clone https://github.com/messense/aliyundrive-webdav package/aliyundrive-webdav
